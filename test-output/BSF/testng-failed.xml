@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BSF]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcase.Accrual_AutomationConfig">
+        <methods>
+          <include name="accrualautomationConfig"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.Accrual_AutomationConfig -->
+      <class name="testcase.User_Update">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userUpdation"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.User_Update -->
+      <class name="testcase.Exchange_Rate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="exchangerate"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.Exchange_Rate -->
+      <class name="testcase.Transfer_ownership">
+        <methods>
+          <include name="transferownership"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.Transfer_ownership -->
+      <class name="testcase.Month_Closing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="monthclosing"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.Month_Closing -->
+      <class name="testcase.Invoice_List">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Invoicelist"/>
+          <include name="setUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcase.Invoice_List -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [BSF] -->

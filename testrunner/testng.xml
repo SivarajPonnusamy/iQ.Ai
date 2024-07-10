@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BSF">
+	<test thread-count="5" name="Test1">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="base.Base_test" />
+			<class name="testcase.Add_users" />
+			<class name="testcase.Add_organisation" />
+			<class name="testcase.User_Update"/>
+			<class name="testcase.Role_Creation" />
+			<class name="testcase.Rule_master" />
+			<class name="testcase.Manual_uploading" />
+			<class name="testcase.Email_config" />
+			<class name="testcase.Target_config" />
+			<!-- class name="testcase.Target_config" / -->
+			<class name="testcase.Profile_page" />
+			<class name="testcase.Id_Configuration" />
+			<class name="testcase.Email_template"/>
+			<class name="testcase.Folder_config" />
+			<class name="testcase.Priority_Configuration" />
+			<class name="testcase.Invoice_List" />
+			<class name="testcase.Document_typeSetup" />
+			<class name="testcase.Transfer_ownership" />
+			<class name="testcase.Remove_Demo_data" />
+			<class name="testcase.Accrual_AutomationConfig" />
+			<class name="testcase.Month_Closing" />
+			<class name="testcase.Task_Id"/>
+			<class name="testcase.Exchange_Rate"/>
+
+
+
+		</classes>
+
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
