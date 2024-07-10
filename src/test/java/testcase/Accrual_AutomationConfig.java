@@ -8,7 +8,7 @@ import pageObjects.AccrualAutomationConfig;
 public class Accrual_AutomationConfig extends Base_test {
 	@Test
 	public void accrualautomationConfig() throws InterruptedException {
-		AccrualAutomationConfig aac1 = new AccrualAutomationConfig(driver);
+		AccrualAutomationConfig aac = new AccrualAutomationConfig(driver);
 		aac.adminSettings();
 		aac.settingS();
 		aac.accrualautomationcard();
