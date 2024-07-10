@@ -29,7 +29,7 @@ public class AccrualAccounting {
 
 	public void accrualSideBar() throws InterruptedException {
 		accrualsidebar.click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		accrualacctab.click();
 
 	}
